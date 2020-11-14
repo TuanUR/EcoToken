@@ -1,12 +1,12 @@
 pragma solidity ^0.6.0;
 
-import './EcoToken.sol';
+import './BavariaEcoToken.sol';
 
 contract EcoExchange {
 
     string public marketplaceName;
     uint public productCount;
-    EcoToken public tokenContract; 
+    BavariaEcoToken public tokenContract; 
 
     struct Product {
         uint productId;
@@ -30,12 +30,10 @@ contract EcoExchange {
     mapping(uint => Product) products;
     mapping(address => Company) companies;
     mapping(address => Consumer) consumers;
-    //address[] consumers; 
 
-    constructor(string memory _marketplaceName, address _tokenContract, address EcoTokenOwner) public {
+    constructor(string memory _marketplaceName, address _tokenContract) public {
         marketplaceName = _marketplaceName;
-        tokenContract = EcoToken(_tokenContract);
-        tokenContract.transferFrom(EcoTokenOwner, address(this), (tokenContract.balanceOf(EcoTokenOwner)));
+        tokenContract = BavariaEcoToken(_tokenContract);
         productCount = 0;
     }
 
