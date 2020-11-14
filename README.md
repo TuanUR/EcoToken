@@ -1,2 +1,4 @@
-# EcoToken
-Do Sustainable Actions, get EcoTokens
+# BavariaEcoToken
+Do Sustainable Actions, get your BavariaEcoTokens
+
+
