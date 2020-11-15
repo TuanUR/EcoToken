@@ -11,8 +11,8 @@ Tests and dApp will be added in the future!
 Install Truffle and Ganache 
 
 Initialse with 
-npm init 
-truffle init
-npm install @openzeppelin/contracts
+* ``` npm init ``` 
+* ``` truffle init ```
+* ``` npm install @openzeppelin/contracts ```
 
-Deploy the contracts (make sure Ganache is running) truffle migrate --reset
+Deploy the contracts (make sure Ganache is running) ``` truffle migrate --reset ```
