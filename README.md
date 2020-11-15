@@ -1,4 +1,4 @@
 # BavariaEcoToken
-Do Sustainable Actions, get your BavariaEcoTokens
 
-
+BET on consumer change!
+Do Sustainable Actions, get your BavariaEcoTokens.
