@@ -1,9 +1,7 @@
 # BavariaEcoToken
 
-# BET on consumer change!
-# Do Sustainable Actions, get your BavariaEcoTokens.
+BET on consumer change! Do Sustainable Actions, get your BavariaEcoTokens.
+A Blockchainbased Rewardsystem 
 
-# A Blockchainbased Rewardsystem 
-
-dApp will be added in the future!
+Tests and dApp will be added in the future!
 
