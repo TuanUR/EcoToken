@@ -10,7 +10,7 @@ Tests and dApp will be added in the future!
 
 Install Truffle and Ganache 
 
-Initialse with 
+Initialize with 
 * ``` npm init ``` 
 * ``` truffle init ```
 * ``` npm install @openzeppelin/contracts ```
